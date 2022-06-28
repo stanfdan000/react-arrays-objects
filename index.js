@@ -1,7 +1,7 @@
 // INPUT: an object with a "name" attribute such as
 //   {name: 'Benny', type: 'dog'}
 // OUTPUT: the value of the 'name' attribute i.e. Benny
-// REQS: use destructuring and the function should be a single line
+
 
 export const getName = ({ name }) => {
   return name;
